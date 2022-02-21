@@ -43,6 +43,7 @@ module.exports = async options =>
       ],
     },
     devServer: {
+      allowedHosts: '9060-andreacavalieri-jhipster-1shzja7fqnw.ws-eu33.gitpod.io',
       hot: true,
       static: {
         directory: './target/classes/static/',
